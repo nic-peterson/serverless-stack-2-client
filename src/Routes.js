@@ -5,11 +5,12 @@ import Notes from "./containers/Notes";
 import Login from "./containers/Login";
 import Signup from "./containers/Signup";
 import NewNote from "./containers/NewNote";
+import Settings from "./containers/Settings";
 import NotFound from "./containers/NotFound";
 import AppliedRoute from "./components/AppliedRoute";
 import AuthenticatedRoute from "./components/AuthenticatedRoute";
 import UnauthenticatedRoute from "./components/UnauthenticatedRoute";
-import Settings from "./containers/Settings";
+
 
 export default ({ childProps }) =>
   <Switch>
