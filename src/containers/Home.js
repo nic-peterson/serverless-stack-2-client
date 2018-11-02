@@ -59,12 +59,11 @@ export default class Home extends Component {
     );
   }
 
-  //Adding in a dummy comment
   renderLander() {
     return (
       <div className="lander">
         <h1>Scratch</h1>
-        <p>A very expensive note taking app</p>
+        <p>A simple note taking app</p>
         <div>
           <Link to="/login" className="btn btn-info btn-lg">
             Login
