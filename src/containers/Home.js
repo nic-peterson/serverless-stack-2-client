@@ -59,22 +59,23 @@ export default class Home extends Component {
     );
   }
 
+  //Adding in a dummy comment
   renderLander() {
-  return (
-    <div className="lander">
-      <h1>Scratch</h1>
-      <p>A very expensive note taking app</p>
-      <div>
-        <Link to="/login" className="btn btn-info btn-lg">
-          Login
-        </Link>
-        <Link to="/signup" className="btn btn-success btn-lg">
-          Signup
-        </Link>
+    return (
+      <div className="lander">
+        <h1>Scratch</h1>
+        <p>A very expensive note taking app</p>
+        <div>
+          <Link to="/login" className="btn btn-info btn-lg">
+            Login
+          </Link>
+          <Link to="/signup" className="btn btn-success btn-lg">
+            Signup
+          </Link>
+        </div>
       </div>
-    </div>
-  );
-}
+    );
+  }
 
   renderNotes() {
     return (
